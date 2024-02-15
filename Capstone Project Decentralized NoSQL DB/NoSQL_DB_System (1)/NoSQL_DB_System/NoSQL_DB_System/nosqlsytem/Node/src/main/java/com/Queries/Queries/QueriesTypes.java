@@ -1,0 +1,14 @@
+package com.Queries.Queries;
+
+public enum QueriesTypes {
+    CREATE_DATABASE,
+    DELETE_DATABASE,
+    CREATE_DOCUMENT,
+    DELETE_DOCUMENT,
+    READ_DOCUMENT,
+    READ_PROPERTY,
+    READ_BY_INDEX,
+    UPDATE_DOCUMENT,
+    CREATE_INDEX
+
+}

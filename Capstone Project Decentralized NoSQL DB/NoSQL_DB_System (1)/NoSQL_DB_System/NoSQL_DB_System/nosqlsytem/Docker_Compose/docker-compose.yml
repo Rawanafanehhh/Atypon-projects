@@ -1,0 +1,65 @@
+version: "3.9"
+
+services:
+
+  node_a:
+    build: ../Node/.
+    container_name: nodeA
+    ports:
+      - "4002:4002"
+    environment:
+      NODE_NUMBER: "1"
+      PORT_NUMBER: "4002"
+      SECRET_KEY: "secret"
+    volumes:
+      - nodeA:/databases
+
+
+  node_b:
+    build: ../Node/.
+    container_name: nodeB
+    ports:
+      - "4003:4003"
+    environment:
+      NODE_NUMBER: "2"
+      PORT_NUMBER: "4003"
+      SECRET_KEY: "secret"
+    volumes:
+      - nodeB:/databases
+
+  node_c:
+    build: ../Node/.
+    container_name: nodeC
+    ports:
+      - "4004:4004"
+    environment:
+      NODE_NUMBER: "3"
+      PORT_NUMBER: "4004"
+      SECRET_KEY: "secret"
+    volumes:
+      - nodeC:/databases
+
+  bootstrap:
+    build: ../BootStrapping/.
+    container_name: bootstrap
+    ports:
+      - "4001:4001"
+    environment:
+      PORT_NUMBER: "4001"
+      SECRET_KEY: "secret"
+      NUMBER_OF_NODES: "3"
+      NODE_1: "host.docker.internal/4002"
+      NODE_2: "host.docker.internal/4003"
+      NODE_3: "host.docker.internal/4004"
+      WRITE_AFFINITY_NODE_NUMBER: "1"
+    volumes:
+      - C:\Users\User\IdeaProjects\NoSQL_DB_System\NoSQL_DB_System\nosqlsytem\BootStrapping\client_data.properties:/path/in/container/client_data.properties
+
+volumes:
+  nodeA:
+    external: false
+  nodeB:
+    external: false
+  nodeC:
+    external: false
+

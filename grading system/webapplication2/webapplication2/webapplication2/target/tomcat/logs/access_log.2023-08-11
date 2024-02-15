@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:42:46 +0300] "GET / HTTP/1.1" 200 1072 http-bio-8080-exec-1 264
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:42:46 +0300] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:43:05 +0300] "POST /login.servlets HTTP/1.1" 200 888 http-bio-8080-exec-5 5838
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:43:13 +0300] "GET /data.servlets?course=History&username=e HTTP/1.1" 200 2634 http-bio-8080-exec-8 59
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:43:24 +0300] "POST /data.servlets HTTP/1.1" 200 2636 http-bio-8080-exec-2 68
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:43:33 +0300] "POST /login.servlets HTTP/1.1" 200 1159 http-bio-8080-exec-4 48
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:01:43:34 +0300] "GET /data.servlets?course=History&username=a HTTP/1.1" 200 758 http-bio-8080-exec-4 29
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:02 +0300] "GET / HTTP/1.1" 200 1072 http-bio-8080-exec-1 1331
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:02 +0300] "GET / HTTP/1.1" 200 1072 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:16 +0300] "POST /login.servlets HTTP/1.1" 200 1031 http-bio-8080-exec-5 5166
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:27 +0300] "GET /data.servlets?course=Math&username=d HTTP/1.1" 200 2626 http-bio-8080-exec-8 50
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:43 +0300] "POST /data.servlets HTTP/1.1" 200 2628 http-bio-8080-exec-1 63
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:00:54 +0300] "POST /login.servlets HTTP/1.1" 200 1094 http-bio-8080-exec-4 15
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:01:10 +0300] "POST /login.servlets HTTP/1.1" 200 1161 http-bio-8080-exec-7 41
+0:0:0:0:0:0:0:1 - - [11/Aug/2023:02:01:11 +0300] "GET /data.servlets?course=Math&username=b HTTP/1.1" 200 750 http-bio-8080-exec-7 27

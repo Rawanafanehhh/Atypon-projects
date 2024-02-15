@@ -1,0 +1,4 @@
+com\example\showresults\model\DataStatistics.class
+com\example\showresults\ShowResultsController.class
+com\example\showresults\ShowResultsApplication.class
+com\example\showresults\ShowResultsController$DataStatisticsMapper.class
