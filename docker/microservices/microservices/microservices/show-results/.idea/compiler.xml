@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="showResult" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="show-results" target="1.8" />
+      <module name="showresults-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="show-results" options="-parameters" />
+      <module name="showResult" options="-parameters" />
+      <module name="showresults-service" options="-parameters" />
+    </option>
+  </component>
+</project>

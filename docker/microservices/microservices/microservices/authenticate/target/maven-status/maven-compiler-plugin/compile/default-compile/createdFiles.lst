@@ -1,0 +1,6 @@
+com\example\auth\dao\UserDao.class
+com\example\auth\controller\AuthenticationController.class
+com\example\auth\AuthenticationApplication.class
+com\example\auth\model\User.class
+com\example\auth\service\AuthenticationService.class
+com\example\auth\dao\UserDao$UserMapper.class
