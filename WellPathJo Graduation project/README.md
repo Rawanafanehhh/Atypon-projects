@@ -1,4 +1,5 @@
 WellPathJo Mobile Application
+
 Technologies Used
 Framework: Flutter
 Backend: Firebase (Firestore, Cloud Storage, Authentication)
