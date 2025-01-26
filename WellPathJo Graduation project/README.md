@@ -31,5 +31,5 @@ Partner with organizations to ensure wider accessibility improvements across pub
 Contact
 For any questions or feedback, feel free to reach out to me:
 
-Email: [Your Email Address]
-LinkedIn: [Your LinkedIn Profile]
+Email: raafaneh@gmail.com
+LinkedIn: https://www.linkedin.com/in/rawanafaneh/
